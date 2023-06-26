@@ -3,7 +3,7 @@
 ## Pre-requisites:
    - A minikube Binary installed (Terraform will install the cluster)
    - Terraform Binary Installed
-   - Maybe your custommanifest files
+   - Maybe your custom manifest files
 
 1. This code base structure has a [main.tf](./main.tf) file which has all the necessary entries to start a local Minikube cluster on your machine with some resources.
 1. In the [providers.tf](./providers.tf) file we do have:
